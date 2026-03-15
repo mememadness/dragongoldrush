@@ -17,44 +17,15 @@ This roadmap tracks the major development milestones for Dragon Gold Rush. For d
 
 ## Project Timeline
 
-<table>
-  <tr>
-    <th>Milestone</th>
-    <th>Oct</th><th>Nov</th><th>Dec</th>
-    <th>Jan</th><th>Feb</th><th>Mar</th><th>Apr</th><th>May</th><th>Jun</th>
-    <th>Jul</th><th>Aug</th><th>Sep</th>
-  </tr>
-  <tr>
-    <td><strong>Bootstrap</strong></td>
-    <td colspan="3" style="background-color:#4a8c6f;color:#fff;text-align:center;">Completed</td>
-    <td colspan="9"></td>
-  </tr>
-  <tr>
-    <td><strong>Music & Audio</strong></td>
-    <td colspan="3"></td>
-    <td colspan="3" style="background-color:#4a8c6f;color:#fff;text-align:center;">Completed</td>
-    <td colspan="6"></td>
-  </tr>
-  <tr>
-    <td><strong>Sprite Design & UI</strong></td>
-    <td colspan="4"></td>
-    <td colspan="3" style="background-color:#e8a83e;color:#fff;text-align:center;">In Progress</td>
-    <td colspan="5"></td>
-  </tr>
-  <tr>
-    <td><strong>In-Game Rewards</strong></td>
-    <td colspan="6"></td>
-    <td colspan="3" style="background-color:#c0392b;color:#fff;text-align:center;">Planned</td>
-    <td colspan="3"></td>
-  </tr>
-  <tr>
-    <td><strong>Fiber Network</strong></td>
-    <td colspan="8"></td>
-    <td colspan="4" style="background-color:#7f8c8d;color:#fff;text-align:center;">Future</td>
-  </tr>
-</table>
+| Milestone | Oct | Nov | Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **Bootstrap** | 🟩 | 🟩 | 🟩 | | | | | | | | | |
+| **Music & Audio** | | | | 🟩 | 🟩 | 🟩 | | | | | | |
+| **Sprite Design & UI** | | | | | 🟧 | 🟧 | 🟧 | | | | | |
+| **In-Game Rewards** | | | | | | | 🟥 | 🟥 | 🟥 | | | |
+| **Fiber Network** | | | | | | | | | ⬜ | ⬜ | ⬜ | ⬜ |
 
-**Legend:** 🟩 Completed &nbsp; 🟧 In Progress &nbsp; 🟥 Planned &nbsp; ⬜ Future
+> 🟩 Completed · 🟧 In Progress · 🟥 Planned · ⬜ Future
 
 ---
 
