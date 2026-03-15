@@ -75,7 +75,7 @@
 
 ---
 
-## Roadmap Progress
+## [Roadmap Progress](../ROADMAP.md)
 
 ### Month 1 — Music & Audio (In Progress)
 - **Completed:**  special item SFX, iOS audio compatibility, mute/options controls
