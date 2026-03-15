@@ -17,35 +17,44 @@ This roadmap tracks the major development milestones for Dragon Gold Rush. For d
 
 ## Project Timeline
 
-```mermaid
----
-config:
-    theme: base
-    themeVariables:
-        doneTaskBkgColor: "#4a8c6f"
-        doneTaskBorderColor: "#3a7a5f"
-    gantt:
-        useWidth: 1200
----
-gantt
-    title Dragon Gold Rush Development
-    dateFormat YYYY-MM
-    axisFormat %b %Y
-    section Bootstrap
-    Completed                         :done, 2025-10, 2026-01
+<table>
+  <tr>
+    <th>Milestone</th>
+    <th>Oct</th><th>Nov</th><th>Dec</th>
+    <th>Jan</th><th>Feb</th><th>Mar</th><th>Apr</th><th>May</th><th>Jun</th>
+    <th>Jul</th><th>Aug</th><th>Sep</th>
+  </tr>
+  <tr>
+    <td><strong>Bootstrap</strong></td>
+    <td colspan="3" style="background-color:#4a8c6f;color:#fff;text-align:center;">Completed</td>
+    <td colspan="9"></td>
+  </tr>
+  <tr>
+    <td><strong>Music & Audio</strong></td>
+    <td colspan="3"></td>
+    <td colspan="3" style="background-color:#4a8c6f;color:#fff;text-align:center;">Completed</td>
+    <td colspan="6"></td>
+  </tr>
+  <tr>
+    <td><strong>Sprite Design & UI</strong></td>
+    <td colspan="4"></td>
+    <td colspan="3" style="background-color:#e8a83e;color:#fff;text-align:center;">In Progress</td>
+    <td colspan="5"></td>
+  </tr>
+  <tr>
+    <td><strong>In-Game Rewards</strong></td>
+    <td colspan="6"></td>
+    <td colspan="3" style="background-color:#c0392b;color:#fff;text-align:center;">Planned</td>
+    <td colspan="3"></td>
+  </tr>
+  <tr>
+    <td><strong>Fiber Network</strong></td>
+    <td colspan="8"></td>
+    <td colspan="4" style="background-color:#7f8c8d;color:#fff;text-align:center;">Future</td>
+  </tr>
+</table>
 
-    section Music & Audio — Integration & SFX
-    Completed                         :done, 2026-01, 2026-03
-
-    section Sprite Design & UI — Visual Updates
-    In Progress                       :active, 2026-02, 2026-04
-
-    section In-Game Rewards — Token & Shop
-    Planned                           :2026-04, 2026-06
-
-    section Fiber Network — 1v1 Battle Mode
-    Future                            :2026-06, 2026-09
-```
+**Legend:** 🟩 Completed &nbsp; 🟧 In Progress &nbsp; 🟥 Planned &nbsp; ⬜ Future
 
 ---
 
