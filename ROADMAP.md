@@ -2,7 +2,7 @@
 
 This roadmap tracks the major development milestones for Dragon Gold Rush. For detailed weekly progress, see the [Weekly Updates](WeeklyUpdates/).
 
-**Last Updated:** 15 March 2026
+**Last Updated:** 29 March 2026
 
 ### Status Legend
 
@@ -21,9 +21,9 @@ This roadmap tracks the major development milestones for Dragon Gold Rush. For d
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **Bootstrap** | 🟩 | 🟩 | 🟩 | | | | | | | | | |
 | **Music & Audio** | | | | 🟩 | 🟩 | 🟩 | | | | | | |
-| **Sprite Design & UI** | | | | | 🟧 | 🟧 | 🟧 | | | | | |
-| **In-Game Rewards** | | | | | | | 🟥 | 🟥 | 🟥 | | | |
-| **Fiber Network** | | | | | | | | | ⬜ | ⬜ | ⬜ | ⬜ |
+| **Sprite Design & UI** | | | | | 🟧 | 🟧 | 🟧 | 🟧 | | | | |
+| **In-Game Rewards** | | | | | | | | | 🟥 | 🟥 | 🟥 | |
+| **Fiber Network** | | | | | | | | | | ⬜ | ⬜ | ⬜ |
 
 > 🟩 Completed · 🟧 In Progress · 🟥 Planned · ⬜ Future
 
@@ -36,11 +36,11 @@ This roadmap tracks the major development milestones for Dragon Gold Rush. For d
 - iOS audio compatibility, mute/options controls
 - All planned music and audio work is fully integrated and live
 
-## Month 1–2 — Sprite Design & UI Enhancements 🔄 In Progress
+## Month 1–3 — Sprite Design & UI Enhancements 🔄 In Progress
 
 - **Completed:** Level restructure with new themed zones (sanctum, abyss, throne, summit) and background art
-- **In Progress:** Sourcing artists for key visual updates — buttons, blocker items, and in-game UI elements
-- **Target:** Initial visual updates by end of Month 2
+- **In Progress:** Evaluating [ludo.ai](https://ludo.ai) for AI-assisted game asset generation, replacing earlier Fiverr-based approach
+- **Revised Target:** Visual updates now expected Month 3–4 (slipped from original Month 2 target while sourcing approach is refined)
 
 ## Post Month 2 — In-Game Rewards 📋 Planned
 
