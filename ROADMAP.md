@@ -51,7 +51,7 @@ This roadmap tracks the major development milestones for Dragon Gold Rush. For d
 
 ## Ongoing — Dragon Token Economy 🔄
 
-The game has pivoted from routing payments through UTXOSwap (a third-party DEX) to a native Dragon Token credit system. Dragon is now a first-class in-game currency.
+The game has pivoted from UTXOSwap (a third-party DEX) to a native Dragon Token credit system. UTXOSwap is no longer actively maintained and its testnet is unsupported, so we built our own in-game swap and credit system. Dragon is now a first-class in-game currency.
 
 - **Completed:** Credit purchase flow (reserve-confirm), ACP cell architecture, prize pool contributions and payouts, backend-authoritative inventory, Dragon economics and pricing engine
 - **Planned:** Expanded in-game shop with special item purchases via credits, Dragon token staking rewards, tournament entry fees, player-to-player trading
