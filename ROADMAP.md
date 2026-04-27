@@ -22,7 +22,7 @@ This roadmap tracks the major development milestones for Dragon Gold Rush. For d
 | **Bootstrap** | 🟩 | 🟩 | 🟩 | | | | | | | | | |
 | **Music & Audio** | | | | 🟩 | 🟩 | 🟩 | | | | | | |
 | **Sprite Design & UI** | | | | | 🟩 | 🟩 | 🟩 | 🟩 | | | | |
-| **In-Game Rewards** | | | | | | | 🟧 | 🟧 | 🟧 | | | |
+| **Dragon Token Integration** | | | | | | | 🟧 | 🟧 | 🟧 | | | |
 | **Story Mode** | | | | | | | 🟧 | 🟧 | 🟧 | 🟧 | 🟧 | 🟧 |
 | **Dragon Token Economy** | | | | | | | | | ⬜ | ⬜ | ⬜ | ⬜ |
 | **Fiber Network** | | | | | | | | | | ⬜ | ⬜ | ⬜ |
@@ -43,11 +43,13 @@ This roadmap tracks the major development milestones for Dragon Gold Rush. For d
 - **Completed:** Treasure sprites V2, jewel variants, blocker rework, themed zone art (sanctum, abyss, throne, summit), desktop layout overhaul, unified font system, SHOP button and streamlined PLAY flow
 - **Outcome:** [ludo.ai](https://ludo.ai) partnership delivered the full sprite library; engagement now closed
 
-## Month 2–4 — In-Game Rewards 🔄 In Progress (pulled forward)
+## Month 2–4 — Dragon Token Integration 🔄 In Progress (pulled forward)
+
+The integration phase that brings Dragon Token into gameplay — building the credit system, payment infrastructure, and prize pool that the broader Dragon Token Economy depends on.
 
 - **Completed:** Dragon credit system with reserve-confirm purchase flow, ACP cell architecture, prize pool with contributions and payouts, backend-authoritative special-item inventory, Dragon economics and pricing engine
 - **In Progress:** Moving Dragon token payments from dev to full production, shop refinement using the new sprite library
-- **Remaining:** In-game shop for special items, potential one-off original NFTs
+- **Remaining:** In-game shop for special items powered by Dragon credits
 
 ## Months 4–9 — Story Mode 🔄 In Progress (New)
 
