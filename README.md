@@ -10,6 +10,7 @@ View the full [Development Roadmap](ROADMAP.md) for milestone tracking, project 
 
 | Report | Period | Focus |
 |--------|--------|-------|
+| [Week 13](WeeklyUpdates/21_April_2026_27_April_2026.md) | 21–27 Apr 2026 | Story mode introduction, robust gravity engine, level design overhaul, sprite work complete |
 | [Weeks 7–12](WeeklyUpdates/29_March_2026_20_April_2026.md) | 29 Mar–20 Apr 2026 | Dragon credit system, prize pool, ACP cell architecture, treasure sprites V2, admin tooling |
 | [Weeks 5–6](WeeklyUpdates/15_March_2026_29_March_2026.md) | 15–29 Mar 2026 | Public roadmap, project documentation & artist sourcing |
 | [Week 4](WeeklyUpdates/7_March_2026_14_March_2026.md) | 7–14 Mar 2026 | Monthly leaderboard system, music integration, level restructure & mobile polish |

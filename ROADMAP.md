@@ -2,7 +2,7 @@
 
 This roadmap tracks the major development milestones for Dragon Gold Rush. For detailed weekly progress, see the [Weekly Updates](WeeklyUpdates/).
 
-**Last Updated:** 20 April 2026
+**Last Updated:** 27 April 2026
 
 ### Status Legend
 
@@ -21,8 +21,9 @@ This roadmap tracks the major development milestones for Dragon Gold Rush. For d
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **Bootstrap** | 🟩 | 🟩 | 🟩 | | | | | | | | | |
 | **Music & Audio** | | | | 🟩 | 🟩 | 🟩 | | | | | | |
-| **Sprite Design & UI** | | | | | 🟧 | 🟧 | 🟧 | 🟧 | | | | |
+| **Sprite Design & UI** | | | | | 🟩 | 🟩 | 🟩 | 🟩 | | | | |
 | **In-Game Rewards** | | | | | | | 🟧 | 🟧 | 🟧 | | | |
+| **Story Mode** | | | | | | | 🟧 | 🟧 | 🟧 | 🟧 | 🟧 | 🟧 |
 | **Dragon Token Economy** | | | | | | | | | ⬜ | ⬜ | ⬜ | ⬜ |
 | **Fiber Network** | | | | | | | | | | ⬜ | ⬜ | ⬜ |
 
@@ -37,17 +38,25 @@ This roadmap tracks the major development milestones for Dragon Gold Rush. For d
 - iOS audio compatibility, mute/options controls
 - All planned music and audio work is fully integrated and live
 
-## Month 1–3 — Sprite Design & UI Enhancements 🔄 In Progress
+## Sprite Design & UI Enhancements ✅ Completed
 
-- **Completed:** Level restructure with new themed zones (sanctum, abyss, throne, summit) and background art
-- **In Progress:** Evaluating [ludo.ai](https://ludo.ai) for AI-assisted game asset generation, replacing earlier Fiverr-based approach
-- **Revised Target:** Visual updates now expected Month 3–4 (slipped from original Month 2 target while sourcing approach is refined)
+- **Completed:** Treasure sprites V2, jewel variants, blocker rework, themed zone art (sanctum, abyss, throne, summit), desktop layout overhaul, unified font system, SHOP button and streamlined PLAY flow
+- **Outcome:** [ludo.ai](https://ludo.ai) partnership delivered the full sprite library; engagement now closed
 
 ## Month 2–4 — In-Game Rewards 🔄 In Progress (pulled forward)
 
 - **Completed:** Dragon credit system with reserve-confirm purchase flow, ACP cell architecture, prize pool with contributions and payouts, backend-authoritative special-item inventory, Dragon economics and pricing engine
-- **In Progress:** Moving Dragon token payments from dev to full production, shop refinement
+- **In Progress:** Moving Dragon token payments from dev to full production, shop refinement using the new sprite library
 - **Remaining:** In-game shop for special items, potential one-off original NFTs
+
+## Months 4–9 — Story Mode 🔄 In Progress (New)
+
+A new single-player progression mode introducing structured content beyond the existing leaderboard challenge. Designed as a long-running content track to drive player engagement and retention.
+
+- **Planning:** 1000-level content roadmap with structured progression and narrative beats
+- **Monetisation:** Free-to-play with a 2-item-per-attempt soft cap — accessible to new players, with item purchases via the Dragon credit system for those who want to push further
+- **Engine foundation:** The robust gravity engine and new level schema (chains, irregular shapes, variants) provide the technical groundwork
+- **Next:** Content production begins May 2026 using the new level authoring tools and sprite library
 
 ## Ongoing — Dragon Token Economy 🔄
 
