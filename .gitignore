@@ -1,5 +1,7 @@
 # Claude Code
 .claude/
+.claude/settings.local.json
+.claude/Claude.md
 
 # Logs
 logs
