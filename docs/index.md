@@ -1,3 +1,10 @@
+---
+layout: default
+title: Home
+nav_order: 1
+permalink: /
+---
+
 # Dragon Gold Rush — Guides
 
 - [How to Play Story Mode](how-to-play-story-mode.md) — a walkthrough of the single-player adventure map, item picker, and match-3 gameplay.

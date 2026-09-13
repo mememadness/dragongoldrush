@@ -1,3 +1,9 @@
+---
+layout: default
+title: How to Play Story Mode
+nav_order: 2
+---
+
 # How to Play Story Mode
 
 Story Mode is Dragon Gold Rush's single-player adventure: 200 hand-crafted

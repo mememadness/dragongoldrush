@@ -1,3 +1,9 @@
+---
+layout: default
+title: How to Swap Old DRAGON Coins
+nav_order: 3
+---
+
 # How to Swap Your Old DRAGON Coins (DRG) for the New Coin (DGC)
 
 > **Coming soon** — the swap desk opens with the launch of the new coin. This

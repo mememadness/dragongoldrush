@@ -3,14 +3,14 @@ description: How-to guides for Dragon Gold Rush
 url: "https://mememadness.github.io"
 baseurl: "/dragongoldrush"
 
-theme: minima
+remote_theme: just-the-docs/just-the-docs
 
-# Plain .md links/pages (no front matter) still need to render as HTML
-# pages, and links between them need to resolve to the built .html files.
-# Both plugins ship with the github-pages gem used by actions/jekyll-build-pages.
+# just-the-docs is a docs theme with a left sidebar, driven by each page's
+# front matter (title, nav_order). Both plugins ship with the github-pages
+# gem used by actions/jekyll-build-pages, so no Gemfile is needed.
 plugins:
+  - jekyll-remote-theme
   - jekyll-relative-links
-  - jekyll-optional-front-matter
 
 exclude:
   - README.md
