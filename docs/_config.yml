@@ -1,0 +1,18 @@
+title: Dragon Gold Rush Guides
+description: How-to guides for Dragon Gold Rush
+url: "https://mememadness.github.io"
+baseurl: "/dragongoldrush"
+
+theme: minima
+
+# Plain .md links/pages (no front matter) still need to render as HTML
+# pages, and links between them need to resolve to the built .html files.
+# Both plugins ship with the github-pages gem used by actions/jekyll-build-pages.
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

@@ -2,7 +2,7 @@
 
 This roadmap tracks the major development milestones for Dragon Gold Rush. For detailed weekly progress, see the [Weekly Updates](WeeklyUpdates/).
 
-**Last Updated:** 3 May 2026
+**Last Updated:** 13 September 2026
 
 ### Status Legend
 
@@ -22,15 +22,15 @@ This roadmap tracks the major development milestones for Dragon Gold Rush. For d
 | **Bootstrap** | 🟩 | 🟩 | 🟩 | | | | | | | | | |
 | **Music & Audio** | | | | 🟩 | 🟩 | 🟩 | | | | | | |
 | **Sprite Design & UI** | | | | | 🟩 | 🟩 | 🟩 | | | | | |
-| **Dragon Token Integration** | | | | | | | 🟧 | 🟧 | 🟩 | | | |
-| **Level Redesign (V2 sprites)** | | | | | | | 🟧 | 🟧 | 🟧 | | | |
-| **Story Mode** | | | | | | | 🟧 | 🟧 | 🟩 | 🟧 | 🟧 | 🟧 |
-| **Dragon Token Economy** | | | | | | | | | 🟧 | 🟧 | 🟧 | 🟧 |
-| **Fiber Network** | | | | | | | | | | 🟥 | 🟥 | 🟥 |
+| **Dragon Token Integration** | | | | | | | 🟩 | 🟩 | 🟩 | 🟩 | | |
+| **Level Redesign (V2 sprites)** | | | | | | | 🟩 | 🟩 | 🟩 | | | |
+| **Story Mode** | | | | | | | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 |
+| **New Coin (DGC) & Swap Desk** | | | | | | | | | | 🟧 | 🟧 | 🟧 |
+| **Fiber Network** | | | | | | | | | | | | 🟥 |
 
 > 🟩 Completed / Live · 🟧 In Progress · 🟥 Planned · ⬜ Future
 >
-> Grid covers the project's first year (Oct 2025 → Sep 2026). Story Mode, Dragon Token Economy, and Fiber Network all continue beyond the visible window.
+> Grid covers the project's first year (Oct 2025 → Sep 2026). Story Mode content, the DGC launch, and Fiber Network continue beyond the visible window.
 
 ---
 
@@ -46,33 +46,36 @@ This roadmap tracks the major development milestones for Dragon Gold Rush. For d
 - **Completed:** Treasure sprites V2, jewel variants, blocker rework, themed zone art (sanctum, abyss, throne, summit), desktop layout overhaul, unified font system, SHOP button and streamlined PLAY flow
 - **Outcome:** [ludo.ai](https://ludo.ai) partnership delivered the full sprite library; engagement now closed
 
-## Month 2–4 — Dragon Token Integration 🔄 In Progress (Pre-Prod UAT)
+## Months 2–4 — Dragon Token Integration ✅ Completed
 
-The integration phase that brings Dragon Token into gameplay — building the credit system, payment infrastructure, and prize pool that the broader Dragon Token Economy depends on.
+The integration phase that brought the game's token into gameplay — the credit system, payment infrastructure, and prize pool the wider token economy builds on.
 
-- **Completed:** Dragon credit system with reserve-confirm purchase flow, ACP cell architecture, prize pool with contributions and payouts, backend-authoritative special-item inventory, Dragon economics and pricing engine, V2 sprite library integration, **v1.0.0 release candidate cut and promoted to pre-prod mainnet UAT**
-- **In Progress:** Pre-prod UAT sign-off on v1.0.0, in-game shop refinement using the new sprite library
-- **Next:** Production rollout of v1.0.0 once UAT is signed off
+- **Completed:** Dragon credit system with reserve-confirm purchase flow, prize pool with contributions and payouts, backend-authoritative special-item inventory, token economics and pricing engine, V2 sprite library integration
+- **Shipped:** v1.0.0 released to production in May; **v1.5.0 released 19 July** with server-verified scoring live in every environment
 
-## Months 4–9 — Story Mode 🔄 In Progress (Targeting June 2026 Go-Live)
+## Months 4–9 — Story Mode ✅ Live (June 2026 go-live achieved)
 
-A new single-player progression mode introducing structured content beyond the existing leaderboard challenge. Designed as a long-running content track to drive player engagement and retention.
+The single-player adventure went live on schedule: **200 hand-crafted levels across 14 themed chapters**, each with its own art and music, a scrolling story map with star ratings, and a per-level item picker.
 
-- **Planning:** 1000-level content roadmap with structured progression and narrative beats
-- **Monetisation:** Free-to-play with a 2-item-per-attempt soft cap — accessible to new players, with item purchases via the Dragon credit system for those who want to push further
-- **Engine foundation:** The robust gravity engine and new level schema (chains, irregular shapes, variants) provide the technical groundwork
-- **Target:** Go-live in **June 2026** with the initial story mode content tranche
-- **In flight:** Heavy level redesign work using the V2 sprite library — refreshing the existing level set and shaking down the production pipeline ahead of the Story Mode tranche
+- **Live:** structured progression with solver-derived star targets, chapter themes and music, wallet-saved progress across devices
+- **Monetisation as designed:** free-to-play with a 2-item-per-attempt soft cap — accessible to new players, items purchasable via the credit system for those who want the edge
+- **Ongoing:** further content tranches on the 1000-level roadmap, plus continuous level tuning driven by an automated play-testing bot
+- **New:** a player guide — [How to Play Story Mode](docs/how-to-play-story-mode.md)
 
-## Ongoing — Dragon Token Economy 🔄
+## New Coin (DGC) & Swap Desk 🔄 In Progress
 
-The game has pivoted from UTXOSwap (a third-party DEX) to a native Dragon Token credit system. UTXOSwap is no longer actively maintained and its testnet is unsupported, so we built our own in-game swap and credit system. Dragon is now a first-class in-game currency.
+The token economy's next chapter: the game is introducing its own new coin, **DGC (Dragon Gold Coin)**, replacing the original DRAGON token (now shown in-game as **DRG**, the legacy coin).
 
-- **Completed:** Credit purchase flow (reserve-confirm), ACP cell architecture, prize pool contributions and payouts, backend-authoritative inventory, Dragon economics and pricing engine
-- **Planned:** Expanded in-game shop with special item purchases via credits, Dragon token staking rewards, tournament entry fees, player-to-player trading
-- **Long-term vision:** Dragon Token as the sole in-game currency powering play, rewards, and marketplace — fully on-chain via Nervos CKB
+- **Why:** the third-party exchange that priced the old token shut down; the game now runs its own in-game market, making the economy self-contained and fully on-chain via Nervos CKB
+- **Built and in final testing:**
+  - **In-game pool** — buy DGC directly in the game; a transparent price curve where the price starts low and rises with demand
+  - **1:1 swap desk** — holders of the old DRAGON coin swap it one-for-one for DGC, either with one tap in the game or by simply sending coins from any wallet (detected automatically); anything that can't be honoured is refunded automatically
+  - **Public burns** — every old coin swapped in is permanently destroyed on-chain, verifiable by anyone
+  - The complete journey — swap, automatic payout, burn — has been rehearsed end-to-end on testnet, including fully automated play-through by bot accounts
+- **Next:** the official DGC launch — mint, published holders list for the swap, and the desk opening. Dates will be announced when final decisions are locked
+- **Guides ready for launch:** [How to Swap Your Old DRAGON](docs/how-to-swap-old-dragon.md)
 
-## Months 10–12 — Fiber Network Integration 🟥 Planned (July 2026 start)
+## Fiber Network Integration 🟥 Planned
 
-- 1v1 battle mode via CKB Fiber Network (currently "Coming Soon" in battle lobby)
-- **Planned start:** July 2026, once the v1.0.0 production rollout and the initial Story Mode tranche are bedded in
+- 1v1 battle mode via CKB Fiber Network (currently "Coming Soon" in the battle lobby)
+- Scheduled to start after the DGC launch is bedded in
