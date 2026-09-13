@@ -2,9 +2,14 @@
 
 A match-3 puzzle game built on [Nervos CKB](https://www.nervos.org/), featuring original music, themed zones, monthly leaderboards, and blockchain-powered rewards.
 
-## Roadmap
+## Project site
 
-View the full [Development Roadmap](ROADMAP.md) for milestone tracking, project timeline, and current status across all workstreams including music & audio, sprite design, in-game rewards, and Fiber Network integration.
+Guides and the roadmap live on the project site:
+**[mememadness.github.io/dragongoldrush](https://mememadness.github.io/dragongoldrush/)**
+
+- [How to Play Story Mode](https://mememadness.github.io/dragongoldrush/how-to-play-story-mode.html)
+- [How to Swap Your Old DRAGON Coins](https://mememadness.github.io/dragongoldrush/how-to-swap-old-dragon.html)
+- [Development Roadmap](https://mememadness.github.io/dragongoldrush/roadmap/)
 
 ## Weekly Updates
 

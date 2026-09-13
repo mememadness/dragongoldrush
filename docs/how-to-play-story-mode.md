@@ -4,6 +4,8 @@ title: How to Play Story Mode
 nav_order: 2
 ---
 
+![Treasure-filled cave from Chapter 1](assets/images/banner-story-cave.webp){: .guide-banner }
+
 # How to Play Story Mode
 
 Story Mode is Dragon Gold Rush's single-player adventure: 200 hand-crafted
@@ -15,7 +17,7 @@ earn stars, and climb the map at your own pace.
 From the title screen press **PLAY** (first-time players accept the beta terms
 once), then choose **STORY MODE**.
 
-![Choosing a game mode](images/story-01-mode-picker.png)
+![Choosing a game mode](images/story-01-mode-picker.png){: .game-shot }
 
 ### 2. Pick a level on the map
 
@@ -23,7 +25,7 @@ The story map shows your journey: completed levels with their star ratings,
 your next level on the path, and future chapters waiting under the clouds.
 Tap the furthest glowing level to continue.
 
-![The story map](images/story-02-map.png)
+![The story map](images/story-02-map.png){: .game-shot }
 
 ### 3. Choose your items (optional)
 
@@ -31,7 +33,7 @@ Before the level starts you can bring special items — fireballs and striped
 treasures from the shop. You can use **up to two items per attempt**, so a
 tough level never becomes pay-to-win. Press **START LEVEL** when ready.
 
-![The item picker](images/story-03-item-picker.png)
+![The item picker](images/story-03-item-picker.png){: .game-shot }
 
 ### 4. Match three to win
 
@@ -39,7 +41,11 @@ Swap neighbouring treasures to line up three or more of a kind. Collect the
 level's target treasures before your moves run out. Matching four or more
 creates special treasures with powerful effects — experiment!
 
-![Playing a story level](images/story-04-gameplay.png)
+Here it is in motion:
+
+![A story level being played — swaps, matches and cascades](images/gameplay-clip.webp){: .game-shot .game-shot-wide }
+
+![Playing a story level](images/story-04-gameplay.png){: .game-shot }
 
 ### 5. Earn stars and keep going
 
@@ -49,8 +55,10 @@ wallet, so you can continue on any device just by connecting.
 
 ## Good to know
 
-- **Story Mode is free to play.** Items are optional and bought with credits;
-  the two-item cap keeps every level beatable on skill.
+{: .tip }
+> **Story Mode is free to play.** Items are optional and bought with credits;
+> the two-item cap keeps every level beatable on skill.
+
 - **Each chapter has its own theme and music** — 14 chapters, with a special
   five-level finale.
 - **Monthly leaderboard, separate mode:** if you want to compete for prizes,

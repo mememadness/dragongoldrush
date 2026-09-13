@@ -1,0 +1,22 @@
+// Dragon Gold Rush scheme — the game's dark-cave-and-gold look.
+// Starts from the theme's dark scheme and re-tints it warm.
+@import "./color_schemes/dark";
+
+$body-background-color: #161009;
+$sidebar-color: #1c150b;
+$body-heading-color: #f6d97e;
+$body-text-color: #e3d9c6;
+
+$link-color: #f0b429;
+$nav-child-link-color: #b09b6a;
+
+$btn-primary-color: #b57e10;
+$base-button-color: #2a2113;
+
+$code-background-color: #241b0e;
+$table-background-color: #1d160c;
+$search-background-color: #1d160c;
+$search-result-preview-color: #b09b6a;
+$feedback-color: #241b0e;
+
+$border-color: #3d2f17;

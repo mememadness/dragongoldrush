@@ -1,0 +1,55 @@
+// Dragon Gold Rush docs — layout polish on top of the dragon color scheme.
+
+// Phone-shaped game screenshots and clips: centered, framed like a device.
+.game-shot {
+  display: block;
+  margin: 1.5rem auto;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 16px;
+  border: 1px solid rgba(240, 180, 41, 0.35);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.55);
+}
+
+// Wider variant for the 500px-wide gameplay captures.
+.game-shot-wide {
+  max-width: 380px;
+}
+
+// Full-width page banner art.
+.guide-banner {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.5);
+}
+
+// Home page hero.
+.hero-banner {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+// Transparent illustration (e.g. the old-coin → DGC transformation):
+// no frame, just breathing room.
+.illustration {
+  display: block;
+  margin: 1.5rem auto;
+  width: 100%;
+  max-width: 560px;
+}
+
+// Small inline coin next to headings.
+.coin-inline {
+  height: 1.6em;
+  vertical-align: -0.35em;
+  margin-right: 0.35em;
+}
+
+// The sidebar logo image keeps its aspect.
+.site-logo {
+  background-size: contain;
+}
